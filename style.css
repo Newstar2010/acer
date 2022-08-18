@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-style: italic;
+    color: green;
+    font-size: 40px;
+}
+.ul{
+    display: flex;
+}
+.li{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #999;
+}
+.fa-magnifying-glass{
+    font-size: 12px;
+    color: #999;
+}
+#menu{
+    color:#999;
+    display: none;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url("./bg.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 140px;
+    color: #fff;
+    line-height: 2;
+}
+.banner1{
+    width: 100%;
+    height: 600px;
+    background: url("./Acer_BB_2560x1080.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    line-height: 2;
+}
+.banner2{
+    width: 100%;
+    height: 600px;
+    background: url("./2560x1080.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    line-height: 2;
+}
+.banner1 h1{
+    font-size: 46px;
+}
+.banner1 h4{
+    font-size: 20px;
+}
+.banner2 h1{
+    font-size: 46px;
+}
+.banner2 h4{
+    font-size: 20px;
+}
+.banner h1{
+    font-size: 48px;
+}
+.banner h4{
+    font-size: 20px;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner h3{
+    font-size: 22px;
+    width: 200px;
+    margin: auto;
+    border-bottom: 3px solid white;
+}
+#rem{
+    width: 130px;
+    height: 45px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#rem1{
+    padding: 8px 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#rem2{
+    padding: 9px 12px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.products{
+    width: 89%;
+    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 290px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    color: #999;
+    font-size: 18px;
+}
+
+footer{
+    background: #575757;
+}
+.footer_container{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer_item{
+    height: 100%;
+}
+.footer_item p{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.footer_item li{
+    list-style: none;
+    font-size: 10px;
+    line-height: 3;
+    color: #999;
+}
+.reklama{
+    width: 100%;
+    margin-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+ .ccard img{
+  width:337px;
+  height: 100%;  
+
+}
+#lim{
+    width: 100px;
+    height: 100px;
+    margin-left:-90px;
+    margin-top: -20px;
+}
